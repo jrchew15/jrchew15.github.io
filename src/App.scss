@@ -1,7 +1,14 @@
-$primary-color: #ff4500;
+$primary-color: #71f79fff;
+$rich-black-fogra: #000d14ff;
+$prussian-blue: #00283dff;
+$forest-green-traditional: #155126ff;
+$medium-spring-green: #71f79fff;
+$medium-turquoise: #27B9B4;
+$mauve: #462032;
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
+// @import 'loaders.css/src/animations/ball-triangle-trace.scss';
+@import './custom-ball-triangle-trace.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';

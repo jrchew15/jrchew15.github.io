@@ -31,28 +31,13 @@ const About = () => {
       <div className="container about-page">
         <div className="text-zone">
           <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={aboutArray}
-              idx={15}
-            />
+            About Me
           </h1>
           <p>
-            I'm a Computer Science Undergrad student at Indian Institute of
-            Information Technology and Management, Gwalior.
+            I need to fill in this section
           </p>
           <p>
-            I'm a very ambitious Full stack developer. I love Automating tasks.
-            Also experienced with Natural Language Processing, Computer Vision.
-          </p>
-          <p>
-            I'm also a competitive coder. Python is my favorite language but
-            when it comes to competitive coding, I prefer to use C++.
-          </p>
-          <p>In love with Open Source.</p>
-          <p>
-            If I need to define myself in one sentence that would be an Anime
-            Lover, and tech-obsessed!!!
+            With something important
           </p>
         </div>
 
@@ -79,7 +64,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   )
 }

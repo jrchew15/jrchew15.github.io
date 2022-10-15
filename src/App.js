@@ -10,17 +10,18 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Soundbar />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/skills" element={<Skills />} />
         </Route>
       </Routes>
     </>
   )
 }
+
+{/* <a target="_blank" href="https://icons8.com/icon/13195/geometry">Geometry</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */ }
 
 export default App

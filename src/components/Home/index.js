@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
@@ -9,10 +9,10 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'udip'.split('')
-  const jobArray = 'Web Developer'.split('')
-  const interestArray = 'AI & Blockchain'.split('')
-  const enthusiastArray = 'Enthusiast'.split('')
+  const nameArray = ' Jason Chew'.split('')
+  const jobArray = 'Web Developer,'.split('')
+  const interestArray = 'Mathematician,'.split('')
+  const enthusiastArray = 'Board Game Designer'.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -31,10 +31,6 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -59,18 +55,23 @@ const Home = () => {
               strArray={enthusiastArray}
               idx={22}
             />
+            <span id='aside-container'>
+              <span className='carot'>^</span>
+              <span className='aside'>(amateur)</span>
+            </span>
           </h1>
-          <h2>
-            Full Stack Developer / AI and Blockchain Enthusiast / Avid Learner
-          </h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
+          {/* <h2>
+            Full Stack Developer / Puzzle Enthusiast / Avid Learner
+          </h2> */}
+          <NavLink to="/about" className="flat-button">
+            ABOUT ME
+          </NavLink>
         </div>
-        <Logo />
+        {/* <Logo /> */}
+        {/* <div>JC</div> */}
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   )
 }

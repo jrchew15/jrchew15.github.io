@@ -29,13 +29,7 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I love to keep a variety of tools in my tech stack. I also make sure
-            to be pro at using one tool before moving on to the next. I keep
-            myself up to date with the latest technologies around.
-          </p>
-          <p>
-            Looking for a role in a company with the opportunity to work with
-            the latest technologies on challenging and diverse projects.
+            I am very skilled please hire me
           </p>
         </div>
 
@@ -44,7 +38,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   )
 }
