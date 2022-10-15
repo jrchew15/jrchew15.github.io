@@ -1,3 +1,5 @@
+$medium-turquoise: #27B9B4;
+
 .home-page {
   .text-zone {
     position: absolute;
@@ -42,6 +44,10 @@
         position: relative;
         display: block;
         width: max-content;
+
+        &:hover {
+          color: $medium-turquoise
+        }
       }
 
       span.aside {
@@ -65,6 +71,10 @@
         right: 0px;
         transform: rotate(10deg);
         width: max-content;
+
+        &:hover {
+          color: $medium-turquoise
+        }
       }
     }
 
@@ -110,4 +120,5 @@
       color: rgb(0, 0, 0);
     }
   }
+
 }

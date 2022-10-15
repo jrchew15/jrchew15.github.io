@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
 import './index.scss'
 
@@ -56,8 +55,8 @@ const Home = () => {
               idx={22}
             />
             <span id='aside-container'>
-              <span className='carot'>^</span>
-              <span className='aside'>(amateur)</span>
+              <span className={`carot`}>^</span>
+              <span className={`aside`}>(amateur)</span>
             </span>
           </h1>
           {/* <h2>

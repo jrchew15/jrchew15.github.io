@@ -12,7 +12,24 @@
     font-weight: 650;
     margin: 10% auto;
   }
+
   .tagcloud--item:hover {
     color: #00ff7f;
+  }
+}
+
+.text-zone {
+  .icon-container {
+    background-color: #ffffff99;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    img {
+      height: 70px;
+      width: 70px;
+      margin: 10px;
+    }
   }
 }

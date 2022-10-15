@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import { useRef } from 'react'
-import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
 
 const Logo = () => {
@@ -13,7 +12,6 @@ const Logo = () => {
       <img
         className="solid-logo"
         ref={solidLogoRef}
-        src={LogoS}
         alt="JavaScript,  Developer"
       />
 
