@@ -29,25 +29,35 @@ export default function Projects() {
                 </h1>
                 <ul>
                     <li>
-                        <h2>Word Play Puzzles</h2>
-                        <img src={wordPlayImg} alt='word-play' />
+                        <a href='https://word-play-puzzles.herokuapp.com' target="_blank" rel="noreferrer">
+                            <h2>Word Play Puzzles</h2>
+                        </a>
+                        <a href='https://word-play-puzzles.herokuapp.com' target="_blank" rel="noreferrer">
+                            <img src={wordPlayImg} alt='word-play' />
+                        </a>
                         <p>
                             This application takes heavy inspiration from the New York Times Puzzles. In particular, Word Play offers a large collection of Word-Gon puzzles, modeled after the NYT's Letter Boxed. The smooth, responsive puzzle display is the highlight of the project and was built with only css and React.
                         </p>
                     </li>
                     <li>
-                        <h2>Nah-Sana</h2>
+                        <a href='https://nah-sana.herokuapp.com' target="_blank" rel="noreferrer"><h2>Nah-Sana</h2></a>
                         <p>
                             Nah-sana is an online project management tool inspired by Asana that allows teams to effectively manage projects and tasks in one central location. This SPA is a collaborative project of 4 developers, built with a Flask backend and a React frontend.
                         </p>
-                        <img src={nahSanaImg} alt='nah-sana' />
+                        <a href='https://nah-sana.herokuapp.com' target="_blank" rel="noreferrer">
+                            <img src={nahSanaImg} alt='nah-sana' />
+                        </a>
                     </li>
                     <li>
-                        <h2>NoiseFog</h2>
+                        <a href='https://jrchew-soundcloud-clone.herokuapp.com' target="_blank" rel="noreferrer">
+                            <h2>NoiseFog</h2>
+                        </a>
                         <p>
                             An audio streaming platform featuring a responsive queue. Normalized data served by an Express backend, and content displayed with react to create a seamless SPA.
                         </p>
-                        <img src={noiseFogImg} alt='noisefog' />
+                        <a href='https://jrchew-soundcloud-clone.herokuapp.com' target="_blank" rel="noreferrer">
+                            <img src={noiseFogImg} alt='noisefog' />
+                        </a>
                     </li>
                 </ul>
             </div>
