@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e617167f.css",
+    "main.js": "/static/js/main.dbfd76fb.js",
+    "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
+    "static/media/Jason-8.jpg": "/static/media/Jason-8.2d3c4b0332c9e433c38d.jpg",
+    "static/media/noisefogpromo.png": "/static/media/noisefogpromo.8caaf5aa92b07c71a196.png",
+    "static/media/nah-sana-workspace.png": "/static/media/nah-sana-workspace.6c6d3002b554fa6ec141.png",
+    "static/media/puzzle-only.png": "/static/media/puzzle-only.1d30a24a8be313409e7a.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.e617167f.css.map": "/static/css/main.e617167f.css.map",
+    "main.dbfd76fb.js.map": "/static/js/main.dbfd76fb.js.map",
+    "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e617167f.css",
+    "static/js/main.dbfd76fb.js"
+  ]
+}
