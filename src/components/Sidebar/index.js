@@ -1,12 +1,13 @@
 import './index.scss'
 import Logo from '../../assets/images/icons8-geometry-96.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faAngellist } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
-  faEnvelope,
+  faFolder,
   faScrewdriverWrench,
+  faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -24,6 +25,13 @@ const Sidebar = () => {
           <NavLink activeclassname="active" className="about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
           </NavLink>
+          <NavLink
+            activeclassname='active'
+            className="projects-link"
+            to="/projects"
+          >
+            <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
+          </NavLink>
 
           <NavLink
             activeclassname="active"
@@ -31,6 +39,13 @@ const Sidebar = () => {
             to="/skills"
           >
             <FontAwesomeIcon icon={faScrewdriverWrench} color="#4d4d4e" />
+          </NavLink>
+          <NavLink
+            activeclassname="active"
+            className="contact-link"
+            to="/contact"
+          >
+            <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
           </NavLink>
 
         </nav>
@@ -51,6 +66,15 @@ const Sidebar = () => {
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://angel.co/u/jason-chew-7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faAngellist} />
             </a>
           </li>
         </ul>

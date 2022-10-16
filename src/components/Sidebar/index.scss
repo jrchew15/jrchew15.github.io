@@ -106,6 +106,13 @@
       }
     }
 
+    a.projects-link {
+      &:after {
+        content: 'PROJECTS';
+        font-weight: bold;
+      }
+    }
+
     a.skills-link {
       &:after {
         content: 'SKILLS';
