@@ -122,3 +122,21 @@
     }
   }
 }
+
+.contact-page {
+  p {
+    a {
+      font-size: 36px;
+      color: white;
+      text-decoration: none;
+
+      svg {
+        margin-right: 15px;
+      }
+
+      &:hover {
+        color: #27B9B4;
+      }
+    }
+  }
+}

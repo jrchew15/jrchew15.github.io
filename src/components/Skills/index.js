@@ -28,15 +28,24 @@ const Skills = () => {
             />
             <br />
           </h1>
-          <p>
-            I love to keep a variety of tools in my tech stack. I also make sure
-            to be pro at using one tool before moving on to the next. I keep
-            myself up to date with the latest technologies around.
-          </p>
-          <p>
-            Looking for a role in a company with the opportunity to work with
-            the latest technologies on challenging and diverse projects.
-          </p>
+          <div className='icon-container'>
+
+            <img alt='logo-nodejs' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+            <img alt='logo-react' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            <img alt='logo-redux' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+            <img alt='logo-flask' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" />
+            <img alt='logo-python' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            <img alt='logo-express' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+            <img alt='logo-postgresql' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+            <img alt='logo-sqlalchemy' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" />
+            <img alt='logo-css' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+            <img alt='logo-html' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+            <img alt='logo-sass' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+            <img alt='logo-matlab' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />
+            <img alt='logo-docker' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
+            <img alt='logo-git' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+
+          </div>
         </div>
 
         <div className="tagcloud-wrap">
@@ -44,7 +53,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   )
 }

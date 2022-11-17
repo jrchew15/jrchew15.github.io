@@ -1,14 +1,14 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
-import codechefLogo from '../../assets/images/codechef.png'
-import LogoSubtitle from '../../assets/images/Sudip_logo_white.png'
+import Logo from '../../assets/images/icons8-geometry-96.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faAngellist } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
-  faEnvelope,
+  faFolder,
   faScrewdriverWrench,
+  faEnvelope,
+  faFileAlt
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -17,8 +17,7 @@ const Sidebar = () => {
     <>
       <div className="nav-bar">
         <Link className="logo" to="/">
-          <img src={LogoS} alt="Logo" />
-          <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+          <img src={Logo} alt="Logo" />
         </Link>
         <nav>
           <NavLink exact="true" activeclassname="active" to="/">
@@ -26,6 +25,13 @@ const Sidebar = () => {
           </NavLink>
           <NavLink activeclassname="active" className="about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          </NavLink>
+          <NavLink
+            activeclassname='active'
+            className="projects-link"
+            to="/projects"
+          >
+            <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
           </NavLink>
 
           <NavLink
@@ -35,7 +41,6 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faScrewdriverWrench} color="#4d4d4e" />
           </NavLink>
-
           <NavLink
             activeclassname="active"
             className="contact-link"
@@ -43,33 +48,41 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
           </NavLink>
+          <NavLink
+            activeclassname="active"
+            className="resume-link"
+            to="/resume"
+          >
+            <FontAwesomeIcon icon={faFileAlt} color='#4d4d43' />
+          </NavLink>
+
         </nav>
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/sudip-banerjee-300b691bb/"
+              href="https://www.linkedin.com/in/jason-r-chew/"
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} color="#b9b9b9" />
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/metal-oopa"
+              href="https://github.com/jrchew15"
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} color="#b9b9b9" />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
             <a
-              href="https://www.codechef.com/users/metal_oopa"
+              href="https://angel.co/u/jason-chew-7"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={codechefLogo} width="24" alt="Codechef" />
+              <FontAwesomeIcon icon={faAngellist} />
             </a>
           </li>
         </ul>
