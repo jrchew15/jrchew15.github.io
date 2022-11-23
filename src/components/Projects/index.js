@@ -35,9 +35,9 @@ export default function Projects() {
                         <a href='https://word-play-puzzles.herokuapp.com' target="_blank" rel="noreferrer">
                             <img src={wordPlayImg} alt='word-play' />
                         </a>
-                        <p>
-                            This application takes heavy inspiration from the New York Times Puzzles. In particular, Word Play offers a large collection of Word-Gon puzzles, modeled after the NYT's Letter Boxed. The smooth, responsive puzzle display is the highlight of the project and was built with only css and React.
-                        </p>
+                            <p>
+                                This application takes heavy inspiration from the New York Times Puzzles. In particular, Word Play offers a large collection of Wordle puzzles and Word-Gon puzzles (modeled after the NYT's Letter Boxed). The smooth, responsive puzzle display is the highlight of the project and was built with only css and React.
+                            </p>
                     </li>
                     <li>
                         <a href='https://nah-sana.herokuapp.com' target="_blank" rel="noreferrer"><h2>Nah-Sana</h2></a>

@@ -1,12 +1,12 @@
 // import { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf";
 import Loader from "react-loaders"
+import { Link } from "react-router-dom";
 // import AnimatedLetters from "../AnimatedLetters"
 // import wordPlayImg from "../../assets/images/puzzle-only.png"
 // import nahSanaImg from "../../assets/images/nah-sana-workspace.png"
 // import noiseFogImg from "../../assets/images/noisefogpromo.png"
 import './index.scss'
-import { pdfjs } from 'react-pdf';
 export default function Resume() {
     // pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
     // const myProjectsArea = 'My Projects'.split('');
@@ -22,9 +22,11 @@ export default function Resume() {
     return <>
         <div className="container resume">
             <div className="text-zone">
-                <Document file="./JasonChewResume.pdf">
-                    <Page pageNumber={1} />
-                </Document>
+                <Link to="/JasonChewResume.pdf" target="_blank" download>
+                    <Document file="./JasonChewResume.pdf">
+                        <Page pageNumber={1} />
+                    </Document>
+                </Link>
             </div>
         </div>
         <Loader type="ball-triangle-path" />

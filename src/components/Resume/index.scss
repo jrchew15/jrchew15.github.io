@@ -2,12 +2,22 @@
     .text-zone {
         padding-left: 200px;
         // width: 40%;
-        height: 70vh;
+        // height: 70vh;
 
-        div {
+        width: 612px;
+        box-sizing: border-box;
+
+        a {
+            width: 612px;
+
             div {
+                width: max-content;
+
                 div {
-                    display: none;
+
+                    div {
+                        display: none;
+                    }
                 }
             }
         }
