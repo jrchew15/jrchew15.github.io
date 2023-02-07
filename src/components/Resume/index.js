@@ -23,7 +23,7 @@ export default function Resume() {
         <div className="container resume">
             <div className="text-zone">
                 <Link to="/JasonChewResume.pdf" target="_blank" download>
-                    <Document file="./JasonChewResume.pdf">
+                    <Document file="./Jason_Chew_Resume.pdf">
                         <Page pageNumber={1} />
                     </Document>
                 </Link>

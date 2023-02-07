@@ -43,7 +43,7 @@ const Contact = () => {
           <p>
             <a href='https://angel.co/u/jason-chew-7' target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faAngellist} />
-              My AngelList
+              My AngelList / Wellfound
             </a>
           </p>
         </div>

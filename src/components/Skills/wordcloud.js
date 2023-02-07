@@ -21,7 +21,8 @@ const WordCloud = () => {
     'Sequelize.js',
     'SQLAlchemy',
     'MATLAB',
-    'Docker'
+    'Docker',
+    'AWS'
   ]
   const options = {
     radius: 300,
@@ -41,7 +42,6 @@ const WordCloud = () => {
   useEffect(() => {
     if (isLoading) {
       TagCloud(container, texts, options)
-      console.log('i fire once')
       setLoad(false)
     }
   })
